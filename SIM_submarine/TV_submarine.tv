@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trickView>
+    <cyclePeriod>0.5</cyclePeriod>
+    <variable>
+        <name>dyn.submarine.pos[0]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">0.0</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m</units>
+    </variable>
+    <variable>
+        <name>dyn.submarine.pos[1]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">16.87881013928029</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m</units>
+    </variable>
+    <variable>
+        <name>dyn.submarine.vel[0]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">0.0</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m/s</units>
+    </variable>
+    <variable>
+        <name>dyn.submarine.vel[1]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">11.0185943988424</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m/s</units>
+    </variable>
+</trickView>

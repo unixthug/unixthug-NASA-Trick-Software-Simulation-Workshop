@@ -1,0 +1,25 @@
+|L   1|2023/12/12,14:16:16|l3comm29| |T 0|0.000000| Dumped ASCII Checkpoint chkpnt_post_init.
+|L   1|2023/12/12,14:16:16|l3comm29| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   1|2023/12/12,14:16:21|l3comm29| |T 0|0.000000| Freeze OFF.
+|L   1|2023/12/12,14:16:54|l3comm29| |T 0|32.800000| Freeze ON. Simulation time holding at 32.800000 seconds.
+|L   0|2023/12/12,14:16:55|l3comm29| |T 0|32.800000| 
+     REALTIME SHUTDOWN STATS:
+     REALTIME TOTAL OVERRUNS:            0
+            ACTUAL INIT TIME:        0.104
+         ACTUAL ELAPSED TIME:       38.917
+|L   0|2023/12/12,14:16:56|l3comm29| |T 0|32.800000| 
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: Executive_freeze_loop.cpp:85
+  DIAGNOSTIC: Sim control Shutdown
+
+           SIMULATION START TIME:        0.000
+            SIMULATION STOP TIME:       32.800
+         SIMULATION ELAPSED TIME:       32.800
+              USER CPU TIME USED:        0.218
+            SYSTEM CPU TIME USED:        0.132
+           SIMULATION / CPU TIME:       93.638
+    INITIALIZATION USER CPU TIME:        0.068
+  INITIALIZATION SYSTEM CPU TIME:        0.032
+            SIMULATION RAM USAGE:       22.664MB
+      (External program RAM usage not included!)

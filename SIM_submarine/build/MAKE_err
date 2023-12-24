@@ -1,0 +1,26 @@
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp: In member function ‘double Submarine::vHullDisp()’:
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:77:11: error: cannot convert ‘double’ to ‘const char*’ for argument ‘1’ to ‘int printf(const char*, ...)’
+   printf(v);
+           ^
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp: In member function ‘double Submarine::fTotal()’:
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:128:2: error: expected ‘;’ before ‘return’
+  return gForce() + bForce() + dForce();
+  ^
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp: In member function ‘double Submarine::dForce()’:
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:119:2: error: ‘area’ was not declared in this scope
+  area = csArea();
+  ^
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:121:2: error: expected ‘;’ before ‘return’
+  return -0.5 * DENSITY_SALT_WATER * vel[1] * abs(vel[1]) * Cd * area;
+  ^
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp: In member function ‘double Submarine::dForce()’:
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:119:2: error: ‘area’ was not declared in this scope
+  area = csArea();
+  ^
+In file included from /usr/include/alloca.h:24:0,
+                 from /usr/include/stdlib.h:491,
+                 from /home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:10:
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp: In member function ‘int Submarine::submarine_integ()’:
+/home/caci114/trick_sims/SIM_submarine/models/submarine/src/Submarine.cpp:173:3: error: expected ‘)’ before ‘__null’
+   NULL);
+   ^
